@@ -32,7 +32,7 @@ public class BigHouse extends Canvas
       window.setColor(Color.BLUE);
 
       window.drawString( "BIG HOUSE ", 50, 50 );
-
+/*
       window.setColor(Color.BLUE);
 
       window.fillRect( 200, 200, 400, 400 );
@@ -41,7 +41,7 @@ public class BigHouse extends Canvas
             Graphics2D g2d = (Graphics2D) g.create();
             int width = getWidth();
             int height = getHeight();
-
+*/
             g2d.setColor(new Color(139, 69, 19));
             g2d.fillRect((width / 2) - 20, height / 2, 40, height / 2);
 
